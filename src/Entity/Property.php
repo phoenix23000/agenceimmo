@@ -40,7 +40,7 @@ class Property
     private $filename;
 
     /**
-     * NOTE: This is not a mapped field of entity metadata, just a simple property.
+     * @Assert\Image(mimeTypes="image/jpeg")
      * 
      * @Vich\UploadableField(mapping="property_image", fileNameProperty="filename")
      * 
